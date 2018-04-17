@@ -18,6 +18,6 @@ h3 {
     font-size: 2em;
 }
 
-#project_imgs{
-    align-items: baseline;
+div {
+    align-items: center;
 }
