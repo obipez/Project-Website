@@ -6,6 +6,8 @@
 
 body {
   padding-top: 54px;
+    margin-left: 50px;
+    margin-right: 45px;
 }
 
 @media (min-width: 992px) {
@@ -16,9 +18,16 @@ body {
 
 h1{
     text-align: right;
-        margin-left: 15px;
+    margin-right: 20px;
+    font-size: 36px;
 }
+
+subhead {
+    font-size: 30px;    
+}
+
 h3 {
+    margin-left: 20px;
     font-size: 2em;
 }
 
@@ -32,11 +41,7 @@ h3 {
     /* reset the text-align */
     text-align:left;
     /* inline-block space fix */
-    margin-right:60px;
-/*
-    padding-left: 10px;
-    padding-right: 10px;
-*/
+/*    margin-right:6px;*/
 }
 
 img-prop {
