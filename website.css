@@ -14,10 +14,33 @@ body {
   }
 }
 
+h1{
+    text-align: right
+}
 h3 {
     font-size: 2em;
 }
 
-div {
-    align-items: center;
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+/*
+    padding-left: 10px;
+    padding-right: 10px;
+*/
+}
+
+img-prop{
+    max-width: 100%;
+    padding-right: 10px;
+    position: relative;
+    
 }
