@@ -15,7 +15,8 @@ body {
 }
 
 h1{
-    text-align: right
+    text-align: right;
+        margin-left: 15px;
 }
 h3 {
     font-size: 2em;
@@ -31,16 +32,19 @@ h3 {
     /* reset the text-align */
     text-align:left;
     /* inline-block space fix */
-    margin-right:-4px;
+    margin-right:60px;
 /*
     padding-left: 10px;
     padding-right: 10px;
 */
 }
 
-img-prop{
+img-prop {
     max-width: 100%;
-    padding-right: 10px;
+    margin-right: 25px;
     position: relative;
-    
+}
+
+img-prop:last-of-type {
+    margin-right: 0px;
 }
