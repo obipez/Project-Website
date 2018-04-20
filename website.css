@@ -1,60 +1,77 @@
 /*!
- * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
- */
+* Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
+* Copyright 2013-2017 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
+*/
 
 body {
-  padding-top: 54px;
-    margin-left: 50px;
-    margin-right: 45px;
+    padding-top: 54px;
 }
 
 @media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+    body {
+        padding-top: 56px;
+    }
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1508px;
 }
 
 h1{
     text-align: right;
-    margin-right: 20px;
-    font-size: 36px;
+    margin-right: ;
+    font-size: 36vm;
 }
 
-subhead {
-    font-size: 30px;    
+.small {
+    font-size: 1em;
 }
 
 h3 {
     margin-left: 20px;
     font-size: 2em;
+    margin-bottom: 5px; 
 }
 
-/* centered columns styles */
+p{
+    margin-left: 20px;
+    margin-bottom: 25px;
+    
+}
+
 .row-centered {
     text-align:center;
 }
 .col-centered {
     display:inline-block;
     float:none;
-    /* reset the text-align */
     text-align:left;
-    /* inline-block space fix */
-/*    margin-right:6px;*/
 }
 
-img-fluid{
+.img-fluid{
     max-width: 100%;
     position: relative;
-    
+
 }
 img-prop {
-/*    max-width: 100%;*/
+    /*    max-width: 100%;*/
     margin-right: 25px;
     position: relative;
 }
 
 img-prop:last-of-type {
     margin-right: 0px;
+}
+
+#footer {
+    text-align: left;
+    margin-left: -20px;
+    max-width: 100%;
+    margin-bottom: -15px;
+    padding-bottom: -15px;
+    font-size: small;
+    float:left;
 }
